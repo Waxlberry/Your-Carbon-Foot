@@ -52,7 +52,7 @@ with col3:
 # Function to generate OpenAI prompt and process response
 def analyze_activities(openai_api_key, activities_description):
     openai.api_key = openai_api_key
-    client = OpenAI(api_key="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")
+    client = OpenAI(api_key="API-KEY")
     completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
         temperature=0.5,
